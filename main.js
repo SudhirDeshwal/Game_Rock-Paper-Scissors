@@ -101,12 +101,16 @@ botDiv.innerHTML="<img src='" + imagesDatabase[botImagechoice] + "' height=150 w
 messageDiv.innerHTML ="<h1 style='color: " + finalMessage['color'] + "; font-size: 60 px ; padding: 30px; '>" + finalMessage['message'] + "</h1>"
 
 document.getElementById('flex-box-rps-div').appendChild(humanDiv);
-document.getElementById('flex-box-rps-div').appendChild(botDiv);
 document.getElementById('flex-box-rps-div').appendChild(messageDiv);
+document.getElementById('flex-box-rps-div').appendChild(botDiv);
 
 
 }
 
+function replay()
+{
 
+    window.location.reload(false);
+}
 
 
